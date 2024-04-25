@@ -19,5 +19,5 @@ Implemented model saving and loading functionalities to ensure seamless integrat
 Developed an application running on a single EC2 instance to perform wine quality prediction using the trained model.
 Program Output: The application provided predictions for wine quality based on input features, allowing users to assess the quality of wine samples.
 
-Screenshots of the Cluster Creation and EC2 insatnces ( 1 master, 3 slaves) 
-
+AWS EMR Cluster is created with (4)EC2 instances ( 1 master, 3 slaves) 
+the master is the one run with hadoop username and run the wine-prediction.py code
